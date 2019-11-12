@@ -1,0 +1,29 @@
+a{
+	text-decoration: none;
+}
+.ddeng1{
+	position: absolute;
+	margin-left: 40%;
+	width: 400px;
+	margin-top: 50px;
+	background-color: black;
+	opacity: 0.8;
+}
+.ddeng2{
+	position: absolute;
+	background-color: black;
+	opacity: 0.8;
+	
+	
+}
+.ddeng11{
+	color: white;
+	font-size: 48px;
+	font-family:"仿宋" ;
+	font-weight:bolder ;
+}
+
+
+.checkbox {
+	margin-left: 50%;
+}

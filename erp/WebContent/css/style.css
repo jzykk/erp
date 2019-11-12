@@ -1,0 +1,300 @@
+a{
+	text-decoration: none;
+}
+.denglu1{
+	position: absolute;
+	z-index: 99999;
+}
+.d0 {
+	width: 100%;
+}
+
+.d2 {
+	margin: 5px auto;
+}
+
+.allwidth {
+	width: 70%;
+	position: relative;
+    z-index: 2;
+}
+
+.widthone {
+	width: 30%;
+	margin-top: 30px;
+}
+
+.widthone h1 {
+	margin-bottom: 20px;
+}
+
+.widthtwo {
+	width: 50%
+}
+
+.regist {
+	margin: 5px auto;
+}
+
+.regist .t1 {
+	width: 100%;
+}
+
+.regist .t1 tr {
+	line-height: 30px;
+}
+
+.regist .t1 .button1 {
+	line-height: 60px;
+}
+
+.address {
+	display: inline;
+	width: 200px;
+}
+
+.banner1 {
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 90px 0 110px;
+	background: linear-gradient(45deg, #020031 0, #6d3353 100%);
+}
+.banner1:after{
+	content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
+    opacity: .4;
+}
+.banner1 h1 {
+	font-size: 72px;
+	font-weight: 900;
+}
+.banner1 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.masthead-links li {
+	list-style-type: none;
+}
+
+.bc-social {
+	padding: 15px 0;
+	text-align: center;
+	background-color: #f5f5f5;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.bc-social-buttons {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.bc-social-buttons li {
+	display: inline-block;
+	line-height: 1;
+	color: #555;
+}
+
+.bc-social-buttons li a {
+	color: #555;
+}
+
+.footer {
+	color: #777;
+	padding: 30px 0;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 70px;
+}
+
+.footer a {
+	color: #777;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.footer-top .about>div h4 {
+	color: #563d7c;
+	font-size: 16px;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+
+/*评论*/
+
+.commentboth {
+	margin-top: 30px;
+}
+
+.comment {
+	text-align: left;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #DEDEDE;
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.comment_title {
+	text-align: left;
+}
+
+.comment_author {
+	background-color: #e5e5e5;
+	border-radius: 8px;
+	font-size: 12px;
+	height: 26px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.comment_author span {
+	margin-right: 80px;
+}
+
+.tocomment {
+	margin-top: 20px;
+}
+
+.tocomment span {
+	font-size: 12px;
+}
+
+.tocomment textarea {
+	height: 100px;
+	width: 100%;
+	resize: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*博客发布*/
+
+.create {
+	margin: 0 auto;
+	width: 1000px
+}
+
+.create tr {
+	line-height: 30px;
+}
+
+
+/*用户个人博客概要列表*/
+
+.templatemo-container {
+	padding: 30px;
+}
+
+.personbloginfo_tr {
+	height: 20px;
+}
+
+.personbloginfo_td {
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+}
+
+.line {
+	border-top: 1px solid #DDDDDD;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.line a {
+	color: black;
+}
+
+.schema_title {
+	font-size: 14px;
+}
+
+.schema_time {
+	color: #777;
+	font-size: 12px;
+}
+
+.layout {
+	text-align: left;
+	font-size: 13px;
+	padding-top: 0px;
+	line-height: 25px;
+}
+
+.userinfo {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.userinfo ul {
+	padding: 0;
+}
+
+.userinfo li {
+	list-style-type: none;
+	font-family: "微软雅黑";
+	float: left;
+	margin-right: 50px;
+	font-size: 14px;
+}
+
+.userinfo li a {
+	color: #FFA500;
+	font-weight: 600;
+}
+
+.schemalist {
+	width: 100%;
+}
+
+.schemalist .bloglist {
+	width: 100%;
+}
+
+.schemalist .bloglist tr th,td{
+	padding: 20px;
+}
+.schemalist .bloglist tr td{
+	padding: 12px;
+}
+.blogedit {
+	float: right;
+}
+
+.blogedit a {
+	color: #FFA500;
+}
+
+.comment_delete {
+	cursor: pointer;
+}
+
+.comment_textarea {
+	font-size: 12px;
+}
+
+
+/*404页面*/
+
+.fourzerofour {
+	text-align: center;
+}

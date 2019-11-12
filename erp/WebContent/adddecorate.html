@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加装潢件展示</title>
+		<link rel="stylesheet" type="text/css" href="css/addclient.css"/>
+	</head>
+	<body>
+		<div class="tou1">
+		<ul>
+					<li class="d121">
+						<img class="zhong" src="img/10.jpg" alt="阿斯顿马丁" width="80px" height="75px"/>
+				<a  href="header.html" style="color: white;">阿斯顿马丁售卖</a>
+			</li>
+			<li>
+				<div class="d0">
+				<span><span><a href="#">车的型号</a></span>
+				<div class="d1">
+				<p><a href="#">游戏下载</a></p>
+				<p><a href="#">LOL宇宙</a></p>
+				</div>
+			</div>
+			</li>
+			<li>
+				<div class="d0">
+				<span><a>6666</a></span>
+				<div class="d1">
+				<p><a href="#">点券充值</a></p>
+				<p>道聚城</p>
+				</div>
+			</div>
+			</li>
+			<li>
+				<div class="d0">
+				<span><a>社区互动</a></span>
+				<div class="d1">
+				<p><a href="#">官方社区</a></p>
+				<p>视频中心</p>
+				<p>玩家服务</p>
+				<p>作者入驻</p>
+				</div>
+			</div>
+			</li>
+			<li>
+				<div class="d0">
+				<span><a href="#">赛事官网</a></span>
+				<div class="d1">
+				<p><a href="#">lpl职业联赛</a></p>
+				<p>LDL发展联赛</p>
+				</div>
+			</div>
+			</li>
+			<li>
+				<div class="d0">
+				<span><a>自助系统</a></span>
+				<div class="d1">
+				<p><a href="#">联系客服</a></p>
+				<p>转区系统</p>
+				<p>峡谷之巅</p>
+				</div>
+			</div>
+			</li>
+		</ul>
+		</div>
+		<!--
+        	添加商品车
+        -->
+		<div class="deng2">
+		<div class="container allwidth">
+			<div class="widthtwo regist">
+				<h1 style="color:white ;font-family: '楷体';font-weight: bolder;">添&nbsp;加&nbsp;装&nbsp;潢&nbsp;件&nbsp;库&nbsp;存</h1>
+				<form id="form1" action="regist.action" method="post">
+					<table class="t1">
+						<tr>
+							<td style="color:white ;font-family: '楷体';font-weight: bolder;font-size: x-large;">装潢件ID：<input id="name" onblur="nameBlur()" type="text" class="form-control" name="name" placeholder="please input Id" />
+								<span id="name_exit" style="color:red;"></span>
+							</td>
+						</tr>
+						<tr>
+							<td style="color:white ;font-family: '楷体';font-weight: bolder;font-size: x-large;">装潢件类型:<br/>
+								<select class="form-control address" id="provincedId" name="provinceId" onchange="showCity(this.value)"><option value='0'>挡泥板</option></select>
+						</tr>
+						<tr class="button1">
+							<td align="center">
+								<button type="button" onclick="check()" class="btn btn-success">submit</button>
+								<button type="reset" class="btn btn-info">reset</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		</div>
+		<!--
+        	注册结束
+        -->
+		<div class="lun1">
+				<div><img id="hd" class="imgg1" src="/img/hd1.jpg" /></div>
+				<h1></h1>
+		</div>
+		<script>
+			var i = 1;
+			var hd = document.getElementById("hd"); //获取图片对象
+			var timer = setInterval("play()", 4000); //创建定时器
+			function play() {
+				//修改图片的内容
+				i++;
+				i = i > 5 ? 1 : i;
+				hd.src = "img/hd" + i + ".jpg";
+			}
+		</script>
+		<div class="wei1">
+			<div class="wei2">
+				<div class="wei3"><img class="img1" src="img/12.png" /></div>
+				<div class="wei4">
+					<p class="wei5">
+						<a rel="nofollow" href="https://ieg.tencent.com">阿斯顿马丁</a><span class="sep">|</span>
+						<a rel="nofollow" href="https://game.qq.com/contract.shtml">服务条款</a><span class="sep">|</span>
+						<a rel="nofollow" href="#">阿斯顿马丁隐私保护指引</a><span class="sep">|</span>
+						<a rel="nofollow" href="#">阿斯顿马丁招聘</a><span class="sep">|</span>
+						<a rel="nofollow" href="https://ieg.tencent.com">阿斯顿马丁客服</a><span class="sep">|</span>
+						<a rel="nofollow" href="https://game.qq.com/contract.shtml">|跑车系列</a><span class="sep">|</span>
+						<a rel="nofollow" href="#">商务合作</a><span class="sep">|</span>
+						<a rel="nofollow" href="#">官方网<a><span class="sep">|</span>
+						<a rel="nofollow" href="https://ieg.tencent.com">网站导航<br>阿斯顿马丁版权所有</a>
+						COPYRIGHT&copy;1998 - 2019 TENCENT. ALL RIGHTS RESERVED.
+						<br>COPYRIGHT &copy; 2012 Riot Games,Inc. ALL RIGHTS RESERVED.
+						<br> 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+						<br> 阿斯顿马丁邂逅珍藏易手车。
+						<br>粤网文[2017]6138-1456号<span class="sep">|</span>（总）网出证（粤）字第057号
+						<br>批准文号：新出审字[2011]310号<span class="sep">|</span>文网进字[2011] 004号 <span class="sep">|</span> 出版物号：ISBN 978-7-89989-145-2<span class="sep">|</span>全国文化市场统一举报电话：12318
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

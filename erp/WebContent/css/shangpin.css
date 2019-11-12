@@ -1,0 +1,40 @@
+body {
+	background-color: #F3F7F8;
+}
+
+.body {
+	margin: 20px auto;
+	width: 1200px;
+}
+
+.kuai {
+	width: 180px;
+	height: 280px;
+	margin: 10px;
+	background-color: white;
+	margin: 10px;
+	float: left;
+	border-radius: 5px;
+}
+
+.imgs {
+	width: 180px;
+	height: 180px;
+}
+
+img {
+	width: 180px;
+	height: 180px;
+	border-radius: 5px;
+}
+
+.info {
+	width: 180px;
+	line-height: 10px;
+	text-align: center;
+}
+
+.but {
+	text-align: center;
+	color: red;
+}
